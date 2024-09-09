@@ -45,4 +45,3 @@ def validUTF8(data):
 
     # All continuation bytes should be consumed at the end
     return continuation_bytes == 0
-
